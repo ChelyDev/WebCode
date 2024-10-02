@@ -1,0 +1,131 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section{
+	margin: 50px 140px;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* Faça seu código aqui 👇 */
+
+header main{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+
+ul{
+	display: flex;
+	text-decoration: none;
+	list-style-type: none;
+	flex-direction: row;
+	gap: 48px;
+	color: #505050;
+}
+
+.links{
+	display: flex;
+	flex-direction: row;
+	gap: 48px;
+	align-items: center;
+}
+
+.icone{
+	width: auto;
+	height: auto;
+	align-items: center;
+}
+
+.fone {
+	display: flex;
+	height: 490px;
+}
+.first{
+	display: flex;
+	justify-content: space-between;
+	gap: 106px;
+	padding-bottom: 80px;
+}
+
+.bluetooth{
+	margin-bottom: 20px;
+}
+
+.threephone{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+figcaption{
+	text-align: center;
+	color: #505050;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.prop{
+	background-color: #2E68FF;
+	padding: 96px 96px;
+	display: flex;
+	font-size: 54px;
+	color: #FFFF;
+	gap: 90px;
+}
+
+footer{
+	margin-top: 100px;
+	background-color: #1A1A1A;
+	width: 100%;
+	height: 130px;
+}
+
+footer section main{
+    color: #FFFF;
+    text-decoration: none;
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links2{
+	color: #FFFF;
+	display: flex;
+	flex-direction: row;
+	gap: 48px;
+	margin-top: 50px;
+	align-items: center;
+}
+
+.icone2{
+	width: auto;
+	height: auto;
+	align-items: center;
+}
